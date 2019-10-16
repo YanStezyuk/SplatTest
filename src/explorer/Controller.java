@@ -112,6 +112,7 @@ public class Controller implements Initializable {
             String newFolderName = "";
             if (result.isPresent()){
                 newFolderName = result.get().toString();
+                newFolderName = result.get().toString();
             }
 
             if((newFolderName!="")&&(!newFolderName.contains("/"))&&(!newFolderName.contains("\\"))
