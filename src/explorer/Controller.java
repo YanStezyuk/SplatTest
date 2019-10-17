@@ -81,6 +81,7 @@ public class Controller implements Initializable {
                 }
                 currentFolder = newValue.getValue().toString();
                 currentNode = newValue;
+                currentNode = newValue;
             }
         });
     }
